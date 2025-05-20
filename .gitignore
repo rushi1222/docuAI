@@ -1,0 +1,81 @@
+# ✅ Core
+.DS_Store
+Thumbs.db
+
+# ✅ Environment & Local Config
+.env
+.env.*
+.env.local
+.venv/
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+
+# ✅ Python junk
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+
+# ✅ Node/Expo
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ✅ macOS & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.CFUserTextEncoding
+.lesshst
+
+# ✅ TypeScript
+*.tsbuildinfo
+
+# ✅ Git conflict files
+*.orig.*
+*.rej
+
+# ✅ Expo test example
+app-example
+
+# ✅ Docker & DevContainer
+.docker/
+.devcontainer/
+docker-compose.override.yml
+docker-compose.debug.yml
+*.pid
+*.sock
+
+# ✅ Docker Desktop / Electron native
+~/.docker/
+~/.config/docker/
+~/.electron-gyp/
+~/.node-gyp/
+~/.vscode-remote/
+
+# ✅ Cache, logs, and cloud CLI junk
+~/.cache/
+~/.config/
+~/.local/
+~/.npm/
+~/.nvm/
+~/.aws/
+~/.azure/
+~/.BrowserLock/
+*.log
+
+# ✅ GitHub Copilot logs
+~/.config/github-copilot/
