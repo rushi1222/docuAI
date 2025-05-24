@@ -13,7 +13,7 @@ import { saveDocx } from '../../utils/saveDocx';
 
 /* ────────── types / consts ────────────────────────────────────────── */
 type Msg = { role:'user'|'assistant'; content:string };
-const API = 'http://10.0.0.96:8000';
+const API = 'https://cloudrun-flask-document-app-858717255548.asia-south1.run.app';
 // const API = 'http://localhost:8000';
 
 
