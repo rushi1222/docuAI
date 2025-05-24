@@ -79,3 +79,4 @@ docker-compose.debug.yml
 
 # ✅ GitHub Copilot logs
 ~/.config/github-copilot/
+backend/
